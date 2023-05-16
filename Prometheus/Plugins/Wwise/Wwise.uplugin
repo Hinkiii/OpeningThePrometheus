@@ -1,13 +1,13 @@
 {
 	"FileVersion" : 1,
 	
-	"FriendlyName" : "Wwise Unreal Engine 4 Integration",
-	"Version" : 202112130,
-	"VersionName" : "2021.1.4.7707.2130",
+	"FriendlyName" : "Wwise Unreal Engine Integration",
+	"Version" : 202112311,
+	"VersionName" : "2021.1.9.7847.2311",
 	"CreatedBy" : "Audiokinetic, Inc.",
 	"CreatedByURL" : "http://audiokinetic.com",
-	"EngineVersion" : "4.26.0",
-	"Description" : "Wwise integration for Unreal Engine 4",
+	"EngineVersion" : "4.27.0",
+	"Description" : "Wwise integration for Unreal Engine",
 	"Category" : "Audio",
 	"EnabledByDefault" : true,
 	

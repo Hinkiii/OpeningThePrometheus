@@ -28,6 +28,15 @@
 				"Engine",
 				"Prometheus"
 			]
+		},
+		{
+			"Name": "PrometheusAutomation",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"Prometheus"
+			]
 		}
 	],
 	"Plugins": [
@@ -38,11 +47,6 @@
 		{
 			"Name": "GameplayAbilities",
 			"Enabled": true
-		},
-		{
-			"Name": "PrExtendedShadingOne",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/a341e12b4af0420aa7fdb0cd0443e9ff"
 		},
 		{
 			"Name": "GameLiftServerSDK",
@@ -179,6 +183,10 @@
 		},
 		{
 			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
 			"Enabled": true
 		}
 	],
