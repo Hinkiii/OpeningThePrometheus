@@ -289,6 +289,43 @@
 			}
 		},
 		{
+			"File": "../../../Engine/Plugins/Experimental/EnhancedInput/EnhancedInput.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0",
+				"FriendlyName": "Enhanced Input",
+				"Description": "Prototype input handling.",
+				"Category": "Input",
+				"CreatedBy": "Epic Games, Inc.",
+				"CreatedByURL": "http://epicgames.com",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EnabledByDefault": false,
+				"CanContainContent": false,
+				"IsBetaVersion": true,
+				"Modules": [
+					{
+						"Name": "EnhancedInput",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "InputBlueprintNodes",
+						"Type": "UncookedOnly",
+						"LoadingPhase": "PreDefault"
+					},
+					{
+						"Name": "InputEditor",
+						"Type": "Editor",
+						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
 			"File": "../../../Prometheus/Plugins/NiagaraUIRenderer/NiagaraUIRenderer.uplugin",
 			"Descriptor": 
 			{
@@ -393,6 +430,32 @@
 						"Name": "NiagaraEditorWidgets",
 						"Type": "Editor",
 						"LoadingPhase": "Default"
+					}
+				]
+			}
+		},
+		{
+			"File": "../../../Prometheus/Plugins/OdyUI/OdyUI.uplugin",
+			"Descriptor": 
+			{
+				"FileVersion": 3,
+				"Version": 1,
+				"VersionName": "1.0.0",
+				"FriendlyName": "Odyssey UI Toolkit",
+				"Description": "Adds UI functionality.",
+				"Category": "UI",
+				"CreatedBy": "Tay Grigg",
+				"CreatedByURL": "https://www.odysseyinteractive.gg/",
+				"DocsURL": "",
+				"MarketplaceURL": "",
+				"SupportURL": "",
+				"EngineVersion": "4.26.0",
+				"CanContainContent": true,
+				"Modules": [
+					{
+						"Name": "OdyUI",
+						"Type": "Runtime",
+						"LoadingPhase": "PreDefault"
 					}
 				]
 			}

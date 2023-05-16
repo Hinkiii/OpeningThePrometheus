@@ -176,6 +176,10 @@
 		{
 			"Name": "SteamShared",
 			"Enabled": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
